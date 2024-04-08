@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+   skillup,
+   movieapp,
+   splitcost,
+   calculator,
+   ToDo,
+   imagelayout,
+    threejs
+    
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Javascript Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Developer",
       icon: creator,
     },
   ];
@@ -115,25 +115,13 @@ import {
   ];
   
   const experiences = [
+   
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Web Developer",
+      company_name: "Skillup Labs",
+      icon: skillup,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,25 +129,13 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Frontend Web Developer",
+      company_name: "Skillup Labs",
+      icon: skillup,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Nov 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,93 +148,142 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sarad is a top developer—energetic, motivated, and adept at tackling challenges. He consistently delivers high-quality work on time.",
+      name: "Nabin Singh",
+      designation: "Mentor",
+      company: "Skillup Labs",
+      url: "https://www.linkedin.com/in/nabinsingh/",
+      image: "https://media.licdn.com/dms/image/C5603AQFYZUGwpAeKjA/profile-displayphoto-shrink_200_200/0/1590555681223?e=1718236800&v=beta&t=4CO6uwQDloBr2LJey1g1OQcYKoritMhf6q9U8XsOSn0",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Sarad does.",
+      name: "Sushil Poudel",
+      designation: "CEO",
+      company: "Pkr tech service ",
+      url: "https://www.linkedin.com/in/dollarboysushil/",
+      image: "https://media.licdn.com/dms/image/D5603AQHvSX7FV7Y9Cw/profile-displayphoto-shrink_100_100/0/1697834949432?e=1718236800&v=beta&t=xTq41NU1YLpsqZFmVuLeGgp0vPviBWvftyeaxsLl8nE",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Sarad optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Lisa Khadka",
+      designation: "Manager",
+      company: "Neplalese Foodary",
+      url: "",
+      image: "https://cdn3d.iconscout.com/3d/premium/thumb/actress-5691543-4741084.png",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Search App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a movie search web app using the TMDb API, showcasing skills in API data fetching, dynamic UI creation with JavaScript, and presenting engaging movie.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "api",
+          color: "white-text-gradient",
+        },
+      ],
+      image: movieapp,
+      source_code_link: "hhttps://github.com/saradpoudel/Movie-Search-App",
+    },
+    {
+      name: "Split-Cost App",
+      description:
+        "Developed a web tool to simplify splitting costs among friends using javascript. You can add expenses, assign shares, and calculate settlements. ",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: splitcost,
+      source_code_link: "https://github.com/saradpoudel/Split-Cost",
+    },
+    {
+      name: "Scientific Calculator",
+      description:
+        "Created a full-featured scientific calculator app. It handles various mathematical functions and ensures accurate calculations.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: calculator,
+      source_code_link: "https://github.com/saradpoudel/calculator",
+    },
+    {
+      name: "To Do App",
+      description:
+        "Built a web app to manage to-do lists. You can show, add, delete, and mark tasks as complete. ",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ToDo,
+      source_code_link: "https://github.com/saradpoudel/TO-DO-lists",
+    },
+    {
+      name: "Image Layout App ",
+      description:
+        "Developed an app using JavaScript to dynamically create and arrange image layouts.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: imagelayout,
+      source_code_link: "https://github.com/saradpoudel/image-layout",
     },
   ];
   
