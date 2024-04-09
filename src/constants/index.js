@@ -144,7 +144,24 @@ import {
       ],
     },
   ];
-  
+  const educations = [
+    {
+      degree: "Bachelor in IT",
+      school : "Kent Institute",
+      year: "2023 - 2024",
+      location: "sydney, Australia",
+      icon: "https://kent.edu.au/wp-content/uploads/Kent-Institute-Logo.png",
+      iconBg: "#E6DEDD",
+    },
+    {
+      degree: "Bachelor in IT",
+      school : "Victorian Institute of Technology",
+      year: "2021 - 2023",
+      location: "sydney, Australia",
+      icon: "https://www.vit.edu.au/assets/logo.png",
+      iconBg: "#E6DEDD",
+    }
+  ]
   const testimonials = [
     {
       testimonial:
@@ -287,4 +304,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
