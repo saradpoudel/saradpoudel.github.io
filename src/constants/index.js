@@ -131,12 +131,13 @@ const experiences = [
   },
 
   {
-    title: "Sydney Trains Presentation Team",
+    title: "Train fleet Presentation Team",
     company_name: "Downer",
     icon: skillup,
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Mar 2024",
     points: [
+      "Carrying out presentation work for Sydney Trains fleet",
     ],
   },
 ];
