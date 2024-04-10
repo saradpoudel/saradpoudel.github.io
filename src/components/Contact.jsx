@@ -7,7 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -17,23 +16,41 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     setForm({
       ...form,
       [name]: value,
     });
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+    if (!form.name.trim()) {
+      newErrors.name = "Name is required";
+    }
+    if (!form.email.trim()) {
+      newErrors.email = "Email is required";
+    }
+    if (!form.message.trim()) {
+      newErrors.message = "Message is required";
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!validateForm()) {
+      return;
+    }
     setLoading(true);
     emailjs
       .send(
         "service_a433a94",
-       "template_24q58f8",
+        "template_24q58f8",
         {
           from_name: form.name,
           to_name: "Sarad Poudel",
@@ -89,6 +106,7 @@ const Contact = () => {
               placeholder="Your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.name && <span className="text-red-500">{errors.name}</span>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
@@ -100,17 +118,19 @@ const Contact = () => {
               placeholder="What's your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.email && <span className="text-red-500">{errors.email}</span>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={4}
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {errors.message && <span className="text-red-500">{errors.message}</span>}
           </label>
 
           <button
