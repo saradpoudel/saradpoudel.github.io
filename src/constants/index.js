@@ -119,7 +119,7 @@ const experiences = [
   {
     title: "Train fleet Presentation Team",
     company_name: "Downer",
-    icon: skillup,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE12apNoBJNP_opmZ452k5kDbbm701e9xknt-vDKsxHg&s",
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Mar 2024",
     points: [

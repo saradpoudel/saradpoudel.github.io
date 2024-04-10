@@ -1,14 +1,13 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
-import { styles } from '../styles';
 
 const Footer = () => {
     return (
         <motion.footer
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
-            transition={{ duration: 0.8, type: "spring", stiffness: 120 }}
+            transition={{ duration: 0.2, type: "spring", stiffness: 60 }}
             className="bg-gray-800 text-white py-3"
         >
             <div className="flex-column items-center gap-5 ">
@@ -16,7 +15,7 @@ const Footer = () => {
                     <motion.a
                         initial={{ x: "-100vw" }}
                         animate={{ x: 0 }}
-                        transition={{ duration: 0.8, type: "spring", stiffness: 120, delay: 0.2 }}
+                        transition={{ duration: 0.8, type: "spring", stiffness: 60, delay: 0.2 }}
                         href="https://github.com/saradpoudel"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -24,19 +23,21 @@ const Footer = () => {
                     >
                         <FaGithub size={40} />
                     </motion.a>
-                    <motion.p
-                        initial={{ x: "-100vw" }}
-                        animate={{ x: 0 }}
-                        transition={{ duration: 0.8, type: "spring", stiffness: 120, delay: 0.6 }}
-                        href="mailto:sarad@saradpoudel.com.au"
-                        className="mr-4 text-blue-400 hover:text-gray-400"
-                    >
-                        sarad@saradpoudel.com.au
-                    </motion.p>
                     <motion.a
                         initial={{ x: "-100vw" }}
                         animate={{ x: 0 }}
-                        transition={{ duration: 0.8, type: "spring", stiffness: 120, delay: 0.4 }}
+                        transition={{ duration: 0.8, type: "spring", stiffness: 60, delay: 0.4 }}
+                        href="mailto:sarad@saradpoudel.com.au"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mr-4 text-blue-400 hover:text-gray-400"
+                    >
+                        sarad@saradpoudel.com.au
+                    </motion.a>
+                    <motion.a
+                        initial={{ x: "-100vw" }}
+                        animate={{ x: 0 }}
+                        transition={{ duration: 0.8, type: "spring", stiffness: 60, delay: 0.6 }}
                         href="https://www.linkedin.com/in/saradpoudel/"
                         target="_blank"
                         rel="noopener noreferrer"
