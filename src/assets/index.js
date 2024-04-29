@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.png";
 
 import skillup from "./company/skillup.webp";
 
-
+import blog from "./blog.png"
 import movieapp from "./movieapp.png";
 import splitcost from "./splitcost.png";
 import ToDo from "./ToDo.png";
@@ -58,4 +58,5 @@ export {
   ToDo,
   imagelayout,
   calculator,
+  blog,
 };

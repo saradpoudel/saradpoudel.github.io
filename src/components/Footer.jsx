@@ -8,7 +8,7 @@ const Footer = () => {
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2, type: "spring", stiffness: 60 }}
-            className="bg-gray-800 text-white py-3"
+            className="bg-[#100d25] text-white py-3"
         >
             <div className="flex-column items-center gap-5 ">
                 <div className="flex items-center justify-around">

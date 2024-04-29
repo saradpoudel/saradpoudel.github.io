@@ -12,7 +12,7 @@ import {
   nodejs,
   git,
   figma,
-  skillup,
+  blog,
   movieapp,
   splitcost,
   calculator,
@@ -105,7 +105,7 @@ const experiences = [
   {
     title: "Frontend Web Developer",
     company_name: "Skillup Labs",
-    icon: skillup,
+    icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
@@ -119,7 +119,7 @@ const experiences = [
   {
     title: "Train fleet Presentation Team",
     company_name: "Downer",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE12apNoBJNP_opmZ452k5kDbbm701e9xknt-vDKsxHg&s",
+    icon: "https://banner2.cleanpng.com/20181025/vq/kisspng-logo-downer-group-australia-downer-rail-downer-edi-a-pragmatic-industry-collaboration-imarc-2-17-5bd15cdd8f7dc5.2989191315404474535877.jpg",
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Mar 2024",
     points: [
@@ -177,6 +177,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Full Stack Blog Site",
+    description:
+      "Developed and deployed a full-stack blog site (https://blog.saradpoudel.com.au/) using the MERN stack (MongoDB, Express, React, Node.js) and Tailwind CSS.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "white-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: "https://blog.saradpoudel.com.au/",
+  },
+  {
     name: "Movie Search App",
     description:
       "Developed a movie search web app using the TMDb API, showcasing skills in API data fetching, dynamic UI creation with JavaScript, and presenting engaging movie.",
@@ -199,7 +224,7 @@ const projects = [
       },
     ],
     image: movieapp,
-    source_code_link: "hhttps://github.com/saradpoudel/Movie-Search-App",
+    source_code_link: "https://github.com/saradpoudel/Movie-Search-App",
   },
   {
     name: "Split-Cost App",
@@ -220,7 +245,7 @@ const projects = [
       },
     ],
     image: splitcost,
-    source_code_link: "https://github.com/saradpoudel/Split-Cost",
+    source_code_link: "ttps://github.com/saradpoudel/Split-Cost",
   },
   {
     name: "Scientific Calculator",
