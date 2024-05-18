@@ -103,16 +103,16 @@ const technologies = [
 const experiences = [
 
   {
-    title: "Frontend Web Developer",
+    title: "Full Stack Developer",
     company_name: "Skillup Labs",
     icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full-Stack Expertise: Delivering seamless user experiences with proficiency in front-end (HTML, CSS, JavaScript) and back-end (frameworks like React and Node.js) development.",
+      "Responsive Design Champion: Crafting user-centric web applications that adapt flawlessly across all devices, ensuring a smooth experience for every visitor.",
+      "Quality-Driven Development: Possessing a proven track record of exceeding client expectations by delivering high-quality, well-tested, and performant web applications.",
+      "Collaborative & Growth-Minded: Thriving in collaborative team environments and fostering a continuous learning mindset to stay ahead of the curve in the ever-evolving web development landscape.",
     ],
   },
 
