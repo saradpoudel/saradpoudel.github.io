@@ -103,16 +103,21 @@ const technologies = [
 const experiences = [
 
   {
-    title: "Full Stack Developer",
+    title: "Software Engineer",
     company_name: "Skillup Labs",
     icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Present",
     points: [
-      "Full-Stack Expertise: Delivering seamless user experiences with proficiency in front-end (HTML, CSS, JavaScript) and back-end (frameworks like React and Node.js) development.",
-      "Responsive Design Champion: Crafting user-centric web applications that adapt flawlessly across all devices, ensuring a smooth experience for every visitor.",
-      "Quality-Driven Development: Possessing a proven track record of exceeding client expectations by delivering high-quality, well-tested, and performant web applications.",
-      "Collaborative & Growth-Minded: Thriving in collaborative team environments and fostering a continuous learning mindset to stay ahead of the curve in the ever-evolving web development landscape.",
+      "Designed, developed, and deployed responsive web applications using React.js, Node.js(Express.js), and TypeScript.",
+      "Optimized data retrieval and reduced page load times by 20 % through efficient coding and well - designed APIs.",
+      "Developed interactive UI components with React.js, increasing average session duration by 35%.",
+      "Created secure and scalable RESTful APIs, implementing robust authentication and authorization mechanisms.",
+      "Achieved 85% code coverage through comprehensive unit testing, emphasizing high- quality code.",
+      "Maintained and refactored existing codebases, reducing code complexity by 25 % and improving application loading time by 10 %.",
+      "Integrated cloud services(AWS) for enhanced application scalability and performance.",
+      "Implemented DevOps practices, utilizing Docker for containerization and Jenkins for CI / CD pipelines.",
+      "Collaborated with cross - functional teams to define project requirements and deliverables, ensuring timely completion of projects.",
     ],
   },
 
