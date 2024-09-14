@@ -103,11 +103,11 @@ const technologies = [
 const experiences = [
 
   {
-    title: "Software Engineer",
-    company_name: "Skillup Labs",
-    icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
+    title: "Junior Software Developer",
+    company_name: "Downer",
+    icon: "https://banner2.cleanpng.com/20181025/vq/kisspng-logo-downer-group-australia-downer-rail-downer-edi-a-pragmatic-industry-collaboration-imarc-2-17-5bd15cdd8f7dc5.2989191315404474535877.jpg",
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "Oct 2023 - August 2024",
     points: [
       "Designed, developed, and deployed responsive web applications using React.js, Node.js(Express.js), and TypeScript.",
       "Optimized data retrieval and reduced page load times by 20 % through efficient coding and well - designed APIs.",
@@ -122,13 +122,20 @@ const experiences = [
   },
 
   {
-    title: "Train fleet Presentation Team",
-    company_name: "Downer",
-    icon: "https://banner2.cleanpng.com/20181025/vq/kisspng-logo-downer-group-australia-downer-rail-downer-edi-a-pragmatic-industry-collaboration-imarc-2-17-5bd15cdd8f7dc5.2989191315404474535877.jpg",
+    title: "Full Stack Developer",
+    company_name: "Skillup Labs",
+    icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Mar 2024",
+    date: "Jan 2023 - Sep 2023",
     points: [
-      "Carrying out presentation work for Sydney Trains fleet",
+      "Assisted Senior developer in developing full-stack web applications",
+      "Contributed to the design and implementation of RESTful APIs, helping improve data exchange efficiency",
+      "Gained hands - on experience with database management using MySQL and MongoDB",
+      "Participated in optimizing database queries, contributing to improved data retrieval speeds",
+      "Collaborated on delivering software solutions that met client requirements and expectations",
+      "Learned to manage project timelines and track progress within given constraints",
+      "Developed communication skills through interactions with team members, clients, and stakeholders",
+      "Acquired practical experience in Agile development methodologies and project management tools(Jira)"
     ],
   },
 ];
