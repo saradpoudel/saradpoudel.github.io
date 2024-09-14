@@ -124,7 +124,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Skillup Labs",
-    icon: "https://skilluplabs.com.au/assets/images/logo_horizontal.png",
+    icon: "https://www.skilluplabs.com.au/skilluplabs_logo.jpg",
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Sep 2023",
     points: [
