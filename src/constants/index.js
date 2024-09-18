@@ -107,7 +107,7 @@ const experiences = [
     company_name: "Downer",
     icon: "https://banner2.cleanpng.com/20181025/vq/kisspng-logo-downer-group-australia-downer-rail-downer-edi-a-pragmatic-industry-collaboration-imarc-2-17-5bd15cdd8f7dc5.2989191315404474535877.jpg",
     iconBg: "#E6DEDD",
-    date: "Oct 2023 - August 2024",
+    date: "Sep 2023 - Current",
     points: [
       "Designed, developed, and deployed responsive web applications using React.js, Node.js(Express.js), and TypeScript.",
       "Optimized data retrieval and reduced page load times by 20 % through efficient coding and well - designed APIs.",
@@ -126,7 +126,7 @@ const experiences = [
     company_name: "Skillup Labs",
     icon: "https://avatars.githubusercontent.com/u/155071919?v=4",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Sep 2023",
+    date: "Feb 2023 - July 2023",
     points: [
       "Assisted Senior developer in developing full-stack web applications",
       "Contributed to the design and implementation of RESTful APIs, helping improve data exchange efficiency",
