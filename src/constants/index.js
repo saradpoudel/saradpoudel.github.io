@@ -103,6 +103,7 @@ const technologies = [
 const experiences = [
 
 
+
   {
     title: "Full Stack Software Developer",
     company_name: "Skillup Labs",
