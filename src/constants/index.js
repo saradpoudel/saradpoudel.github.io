@@ -102,49 +102,38 @@ const technologies = [
 
 const experiences = [
 
-  {
-    title: "Junior Software Developer",
-    company_name: "Downer",
-    icon: "https://banner2.cleanpng.com/20181025/vq/kisspng-logo-downer-group-australia-downer-rail-downer-edi-a-pragmatic-industry-collaboration-imarc-2-17-5bd15cdd8f7dc5.2989191315404474535877.jpg",
-    iconBg: "#E6DEDD",
-    date: "Oct 2023 - August 2024",
-    points: [
-      "Designed, developed, and deployed responsive web applications using React.js, Node.js(Express.js), and TypeScript.",
-      "Optimized data retrieval and reduced page load times by 20 % through efficient coding and well - designed APIs.",
-      "Developed interactive UI components with React.js, increasing average session duration by 35%.",
-      "Created secure and scalable RESTful APIs, implementing robust authentication and authorization mechanisms.",
-      "Achieved 85% code coverage through comprehensive unit testing, emphasizing high- quality code.",
-      "Maintained and refactored existing codebases, reducing code complexity by 25 % and improving application loading time by 10 %.",
-      "Integrated cloud services(AWS) for enhanced application scalability and performance.",
-      "Implemented DevOps practices, utilizing Docker for containerization and Jenkins for CI / CD pipelines.",
-      "Collaborated with cross - functional teams to define project requirements and deliverables, ensuring timely completion of projects.",
-    ],
-  },
 
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Software Developer",
     company_name: "Skillup Labs",
     icon: "https://avatars.githubusercontent.com/u/155071919?v=4",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Sep 2023",
+    date: "March 2024 - Sep 2024",
     points: [
-      "Assisted Senior developer in developing full-stack web applications",
-      "Contributed to the design and implementation of RESTful APIs, helping improve data exchange efficiency",
-      "Gained hands - on experience with database management using MySQL and MongoDB",
-      "Participated in optimizing database queries, contributing to improved data retrieval speeds",
-      "Collaborated on delivering software solutions that met client requirements and expectations",
-      "Learned to manage project timelines and track progress within given constraints",
-      "Developed communication skills through interactions with team members, clients, and stakeholders",
-      "Acquired practical experience in Agile development methodologies and project management tools(Jira)"
+
+      "Designed and implemented interactive front-end components using JavaScript, React.js and TypeScript, enhancing user experience.",
+      "Built scalable back-end services with Node.js and Express.js, ensuring seamless API integrations.",
+      "Contributed to database design and query optimization using SQL Server, enhancing data integrity and system reliability.",
+      "Deployed applications on AWS and Azure, implementing load balancing and monitoring to ensure scalability and availability under varying workloads.",
+      "Designed RESTful APIs and optimized database operations with MS SQL Server and MongoDB.",
+      "Developed microservices to enhance modularity and scalability, supporting NFP clients’ evolving requirements.",
+      "Utilized Docker for containerized application deployment and GitHub for version control and collaboration.",
+      "Automated deployments via CI/CD pipelines with Azure DevOps and PowerShell.",
+      "Conducted rigorous unit and integration testing, improving application reliability and user satisfaction.",
+      "Managed and optimized relational databases (PostgreSQL, MySQL), writing efficient queries to support high-performing applications and data integrity.",
+      "Utilized Git for version control and branch management, maintaining a structured codebase and collaborating on feature development in a team setting.",
+      "Collaborated with cross-functional teams in an Agile environment, contributing to sprint planning and code reviews."
+
+
     ],
   },
 ];
 const educations = [
   {
-    degree: "Bachelor in IT",
+    degree: "Bachelor in Information Technology",
     school: "Kent Institute",
     year: "2023 - 2024",
-    location: "sydney, Australia",
+    Slocation: "sydney, Australia",
     icon: "https://kent.edu.au/wp-content/uploads/Kent-Institute-Logo.png",
     iconBg: "#E6DEDD",
   },
@@ -152,7 +141,7 @@ const educations = [
     degree: "Bachelor in IT",
     school: "Victorian Institute of Technology",
     year: "2021 - 2023",
-    location: "sydney, Australia",
+    location: "Sydney, Australia",
     icon: "https://www.vit.edu.au/assets/logo.png",
     iconBg: "#E6DEDD",
   }
