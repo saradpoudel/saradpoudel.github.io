@@ -128,6 +128,27 @@ const experiences = [
 
     ],
   },
+
+  {
+    title: "Junior IT Technician",
+    company_name: "Spotless Group",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQHbTH3igEB3oQ/company-logo_100_100/company-logo_100_100/0/1707084448207/spotless_logo?e=1744243200&v=beta&t=QoivQcI5hWNkxkMEpMlx-sOZ52DqYqE7Oh5J5ohYxKI",
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Jan 2024",
+    points: [
+
+      "Delivered technical support for desktops, laptops, printers, and mobile devices, resolving issues promptly to maintain productivity.",
+    "Monitored and managed Active Directory for user account setups, password resets, and security access, ensuring data integrity.",
+    "Configured and deployed hardware (PCs, routers, and peripherals) and software applications to meet business requirements.",
+    "Performed system upgrades, patch management, and routine maintenance, enhancing security and operational efficiency.",
+    "Resolved network connectivity issues, including LAN/WAN troubleshooting and Wi-Fi optimization, reducing downtime by 20%.",
+    "Maintained IT inventory and asset records, tracking hardware/software licenses for compliance and cost optimization.",
+    "Supported video conferencing tools and remote desktop setups, enabling seamless hybrid work solutions for employees.",
+    "Collaborated with IT teams to implement and document solutions for recurring issues, improving service response time."
+
+
+    ],
+  },
 ];
 const educations = [
   {
