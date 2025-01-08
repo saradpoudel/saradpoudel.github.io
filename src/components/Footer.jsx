@@ -54,7 +54,7 @@ const Footer = () => {
                         transition={{ duration: 0.8, type: "spring", stiffness: 120, delay: 0.8 }}
                         className="text-gray-400"
                     >
-                        &copy; 2024 Sarad Poudel. All Rights Reserved.
+                        &copy; 2025 Sarad Poudel. All Rights Reserved.
                     </motion.p>
                 </div>
             </div>
