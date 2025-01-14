@@ -109,7 +109,7 @@ const experiences = [
     company_name: "Skillup Labs",
     icon: "https://avatars.githubusercontent.com/u/155071919?v=4",
     iconBg: "#E6DEDD",
-    date: "March 2024 - Sep 2024",
+    date: "March 2024 - December 2024",
     points: [
 
       "Designed and implemented interactive front-end components using JavaScript, React.js and TypeScript, enhancing user experience.",
