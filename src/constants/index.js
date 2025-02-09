@@ -102,14 +102,30 @@ const technologies = [
 
 const experiences = [
 
-
+  {
+    title: "Junior Software Engineer ",
+    company_name: "Data Secure VA",
+    icon: "https://d3v0px0pttie1i.cloudfront.net/uploads/user/logo/34923054/dca1a0f9.png",
+    iconBg: "#E6DEDD",
+    date: "Oct 2024 - Current",
+    points: [
+      
+      "Spearheading the development of enterprise-grade automation solutions using Make (Integromat), n8n, and Copilot Studio, achieving 30% reduction in manual processes and enhanced operational workflows",
+      "Architecting and implementing AI-powered voice customer support agents with Vapi integration, revolutionizing customer interactions through natural language processing and real-time response capabilities",
+      "Designing and deploying complex integration architectures connecting multiple SaaS platforms (CRM, ERP), enabling seamless data synchronization and automated business processes",
+      "Engineering custom Python-based AI agents to automate critical business functions including intelligent appointment scheduling, smart task management, and subscription handling",
+      "Managing AWS EC2 infrastructure with 99.9% uptime through implementation of advanced monitoring systems and automated scaling protocols",
+      "Developing and maintaining high-performance server automation solutions using Python and Bash scripting, resulting in 40% reduction in administrative overhead",
+      "Building scalable RESTful APIs and managing robust database architectures (PostgreSQL, MySQL) to support business-critical applications",
+    ],
+  },
 
   {
     title: "Full Stack Software Developer",
     company_name: "Skillup Labs",
     icon: "https://avatars.githubusercontent.com/u/155071919?v=4",
     iconBg: "#E6DEDD",
-    date: "March 2024 - December 2024",
+    date: "Nov 2023 - Sep 2024",
     points: [
 
       "Designed and implemented interactive front-end components using JavaScript, React.js and TypeScript, enhancing user experience.",
@@ -134,7 +150,7 @@ const experiences = [
     company_name: "Spotless Group",
     icon: "https://media.licdn.com/dms/image/v2/D560BAQHbTH3igEB3oQ/company-logo_100_100/company-logo_100_100/0/1707084448207/spotless_logo?e=1744243200&v=beta&t=QoivQcI5hWNkxkMEpMlx-sOZ52DqYqE7Oh5J5ohYxKI",
     iconBg: "#E6DEDD",
-    date: "May 2023 - Jan 2024",
+    date: "May 2023 - Nov 2023",
     points: [
 
       "Delivered technical support for desktops, laptops, printers, and mobile devices, resolving issues promptly to maintain productivity.",
